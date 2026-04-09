@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://demo-speck-plumbing.dream-surge.com/sitemap-index.xml

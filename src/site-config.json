@@ -1,0 +1,612 @@
+{
+  "business": {
+    "name": "Speck Plumbing",
+    "phone": "+12147324769",
+    "category": "plumber",
+    "city": "Dallas",
+    "state": "TX"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-heritage-craft",
+      "categoryGroup": "roofing",
+      "name": "Heritage Craft",
+      "recipeFile": "roofing/heritage-craft.astro",
+      "colors": {
+        "primary": "#3D2E1F",
+        "primaryDark": "#251A10",
+        "primaryLight": "#D4C5B0",
+        "secondary": "#5C4A3A",
+        "accent": "#6B5335",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#5C4A3A",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "roofing/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Dallas's Plumbing Problem Solvers",
+      "heroSubline": "Speck Plumbing delivers reliable solutions, fast. We handle everything from leaky faucets to complex repiping projects across Dallas.",
+      "aboutTitle": "More Than Just Plumbers",
+      "aboutText": [
+        "Speck Plumbing was founded over a decade ago right here in Dallas. We saw a need for honest, dependable plumbing services that treated customers like neighbors.",
+        "Our approach is simple: diagnose accurately, explain clearly, and fix it right the first time. We value integrity, transparency, and quality workmanship above all else.",
+        "We're proud to be a part of the Dallas community, supporting local schools and organizations. We're committed to providing reliable plumbing services that keep Dallas homes and businesses running smoothly."
+      ],
+      "valueProps": [
+        {
+          "title": "24/7 Emergency Service",
+          "description": "Plumbing emergencies don't wait. We're available around the clock to handle burst pipes, sewer backups, and more."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "No hidden fees or surprises. We provide clear, detailed estimates before any work begins."
+        },
+        {
+          "title": "Experienced Technicians",
+          "description": "Our team consists of licensed and insured plumbers with years of experience in the Dallas area."
+        },
+        {
+          "title": "Guaranteed Workmanship",
+          "description": "We stand behind our work. If you're not satisfied, we'll make it right."
+        }
+      ],
+      "ctaHeadline": "Stop Plumbing Problems Before They Start",
+      "ctaSubline": "Call Speck Plumbing today for fast, reliable service and peace of mind."
+    },
+    "services": [
+      {
+        "slug": "drain-cleaning",
+        "name": "Drain Cleaning",
+        "shortDescription": "Fast, effective drain cleaning to keep your plumbing flowing smoothly.",
+        "description": "Clogged drains are a common nuisance in Dallas homes, especially with older plumbing systems and the accumulation of debris. Speck Plumbing offers comprehensive drain cleaning services to clear blockages and restore proper flow. We use a variety of methods, including snaking, hydro jetting, and enzyme treatments, to tackle any clog, no matter how stubborn. Whether it's a slow-draining sink, a backed-up shower, or a clogged toilet, our experienced technicians will diagnose the problem and provide the most effective solution. We also offer preventative maintenance services to help keep your drains clear and prevent future clogs. From grease build-up common after holiday cooking to root intrusion in older clay pipes, we've seen it all in Dallas and know how to fix it. Don't let a clogged drain disrupt your day – call Speck Plumbing for fast, reliable service.",
+        "process": [
+          "Step 1: Diagnose the clog using camera inspection if needed.",
+          "Step 2: Choose the appropriate cleaning method (snaking, hydro jetting, etc.).",
+          "Step 3: Clear the clog and restore proper flow.",
+          "Step 4: Provide tips to prevent future clogs."
+        ],
+        "benefits": [
+          "Eliminate slow drains",
+          "Prevent future clogs",
+          "Restore proper water flow",
+          "Avoid costly repairs"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my drains cleaned?",
+            "answer": "We recommend having your drains cleaned at least once a year to prevent clogs and maintain proper flow. Homes with older plumbing or frequent grease disposal may require more frequent cleaning."
+          },
+          {
+            "question": "What are the signs of a clogged drain?",
+            "answer": "Signs of a clogged drain include slow-draining sinks, gurgling sounds, and foul odors. If you notice any of these signs, it's important to call a plumber as soon as possible to prevent further damage."
+          },
+          {
+            "question": "Is hydro jetting safe for my pipes?",
+            "answer": "Hydro jetting is a safe and effective method for clearing drains, but it's important to have it done by a qualified professional. Speck Plumbing's technicians are trained to use hydro jetting safely and effectively without damaging your pipes."
+          }
+        ]
+      },
+      {
+        "slug": "water-heater-repair",
+        "name": "Water Heater Repair & Installation",
+        "shortDescription": "Reliable water heater services to ensure you always have hot water.",
+        "description": "A malfunctioning water heater can be a major inconvenience, especially during Dallas's cooler months. Speck Plumbing offers comprehensive water heater repair and installation services for all types of water heaters, including tankless, electric, and gas models. Whether you're experiencing a leak, a lack of hot water, or strange noises, our experienced technicians will diagnose the problem and provide the most effective solution. We also offer water heater installation services for new construction and replacements. We understand the specific challenges of water heaters in older Dallas homes, such as hard water and sediment buildup, and we have the expertise to address these issues. We can help you choose the right water heater for your needs and budget, ensuring you have a reliable source of hot water for years to come. We're familiar with the specific requirements and codes for water heater installations in Dallas, ensuring your new water heater is installed safely and correctly.",
+        "process": [
+          "Step 1: Diagnose the water heater problem.",
+          "Step 2: Provide a detailed estimate for repair or replacement.",
+          "Step 3: Perform the necessary repairs or install a new water heater.",
+          "Step 4: Test the water heater to ensure proper operation."
+        ],
+        "benefits": [
+          "Reliable hot water",
+          "Energy efficiency",
+          "Safe operation",
+          "Extended water heater lifespan"
+        ],
+        "faq": [
+          {
+            "question": "How long does a water heater typically last?",
+            "answer": "A typical water heater lasts 8-12 years. Regular maintenance can help extend the lifespan of your water heater."
+          },
+          {
+            "question": "What are the signs that my water heater needs to be replaced?",
+            "answer": "Signs that your water heater needs to be replaced include leaks, rust, and a lack of hot water. If you notice any of these signs, it's important to call a plumber as soon as possible."
+          },
+          {
+            "question": "What are the benefits of a tankless water heater?",
+            "answer": "Tankless water heaters provide on-demand hot water, are more energy-efficient than traditional tank water heaters, and take up less space."
+          }
+        ]
+      },
+      {
+        "slug": "leak-detection",
+        "name": "Leak Detection",
+        "shortDescription": "Accurate leak detection to prevent water damage and save you money.",
+        "description": "Hidden leaks can cause significant damage to your Dallas home, leading to costly repairs and increased water bills. Speck Plumbing offers advanced leak detection services to locate hidden leaks quickly and accurately. We use state-of-the-art equipment, including acoustic listening devices and thermal imaging cameras, to pinpoint the source of the leak without causing unnecessary damage to your property. Whether it's a slab leak, a pipe leak behind a wall, or a hidden leak in your yard, our experienced technicians will find it and provide a solution. Dallas's fluctuating temperatures and aging infrastructure can contribute to pipe leaks, making leak detection a critical service. We understand the unique challenges of leak detection in Dallas homes and have the expertise to address them effectively. Don't let a hidden leak drain your wallet – call Speck Plumbing for professional leak detection services.",
+        "process": [
+          "Step 1: Conduct a thorough inspection of your plumbing system.",
+          "Step 2: Use advanced leak detection equipment to locate hidden leaks.",
+          "Step 3: Provide a detailed report of the leak location and severity.",
+          "Step 4: Offer repair options to fix the leak."
+        ],
+        "benefits": [
+          "Prevent water damage",
+          "Save money on water bills",
+          "Protect your property",
+          "Identify hidden leaks quickly"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if I have a hidden leak?",
+            "answer": "Signs of a hidden leak include a sudden increase in your water bill, the sound of running water when no fixtures are in use, and damp spots on your walls or floors."
+          },
+          {
+            "question": "What is a slab leak?",
+            "answer": "A slab leak is a leak in a water pipe located underneath the concrete slab foundation of your home. Slab leaks can cause significant damage if left untreated."
+          },
+          {
+            "question": "How much does leak detection cost?",
+            "answer": "The cost of leak detection varies depending on the complexity of the job. Speck Plumbing provides upfront pricing and will provide a detailed estimate before any work begins."
+          }
+        ]
+      },
+      {
+        "slug": "sewer-line-repair",
+        "name": "Sewer Line Repair & Replacement",
+        "shortDescription": "Expert sewer line services to keep your wastewater flowing properly.",
+        "description": "A damaged sewer line can cause serious problems, including backups, foul odors, and potential health hazards. Speck Plumbing offers comprehensive sewer line repair and replacement services to address any sewer line issue. We use trenchless technology whenever possible to minimize disruption to your property. Whether it's a cracked pipe, a root intrusion, or a collapsed sewer line, our experienced technicians will diagnose the problem and provide the most effective solution. Dallas's older homes are particularly susceptible to sewer line problems due to aging pipes and tree root intrusion. We understand the unique challenges of sewer line repair in Dallas and have the expertise to address them effectively. We can perform video inspections to assess the condition of your sewer line and recommend the best course of action. Don't let a damaged sewer line disrupt your life – call Speck Plumbing for fast, reliable service.",
+        "process": [
+          "Step 1: Conduct a video inspection of the sewer line.",
+          "Step 2: Diagnose the problem and determine the best repair or replacement method.",
+          "Step 3: Perform the necessary repairs or replace the sewer line.",
+          "Step 4: Test the sewer line to ensure proper operation."
+        ],
+        "benefits": [
+          "Prevent sewer backups",
+          "Eliminate foul odors",
+          "Protect your property",
+          "Restore proper wastewater flow"
+        ],
+        "faq": [
+          {
+            "question": "What are the signs of a sewer line problem?",
+            "answer": "Signs of a sewer line problem include frequent backups, slow-draining toilets, and foul odors in your yard."
+          },
+          {
+            "question": "What is trenchless sewer repair?",
+            "answer": "Trenchless sewer repair is a method of repairing or replacing a sewer line without digging a large trench. This method minimizes disruption to your property and is often more cost-effective than traditional methods."
+          },
+          {
+            "question": "How much does sewer line repair cost?",
+            "answer": "The cost of sewer line repair varies depending on the complexity of the job. Speck Plumbing provides upfront pricing and will provide a detailed estimate before any work begins."
+          }
+        ]
+      },
+      {
+        "slug": "fixture-installation",
+        "name": "Fixture Installation",
+        "shortDescription": "Professional fixture installation for kitchens, bathrooms, and more.",
+        "description": "Upgrading your fixtures can enhance the look and functionality of your Dallas home. Speck Plumbing offers professional fixture installation services for kitchens, bathrooms, and more. Whether you're replacing a faucet, installing a new toilet, or upgrading your showerhead, our experienced technicians will ensure the job is done right. We handle all types of fixtures, including sinks, toilets, faucets, showers, and bathtubs. We understand the importance of proper installation to prevent leaks and ensure long-lasting performance. We're familiar with the latest fixture designs and technologies, and we can help you choose the right fixtures for your needs and budget. From modern urban condos in Uptown to historic Tudor homes in Highland Park, we've installed fixtures in a wide variety of Dallas homes. Trust Speck Plumbing for professional fixture installation services that enhance the beauty and value of your home.",
+        "process": [
+          "Step 1: Remove the old fixture.",
+          "Step 2: Prepare the area for the new fixture.",
+          "Step 3: Install the new fixture according to manufacturer specifications.",
+          "Step 4: Test the fixture to ensure proper operation."
+        ],
+        "benefits": [
+          "Enhanced aesthetics",
+          "Improved functionality",
+          "Increased home value",
+          "Leak-free installation"
+        ],
+        "faq": [
+          {
+            "question": "Do I need to turn off the water before replacing a fixture?",
+            "answer": "Yes, it's important to turn off the water supply to the fixture before replacing it to prevent leaks and water damage."
+          },
+          {
+            "question": "Can I install a fixture myself?",
+            "answer": "While it's possible to install a fixture yourself, it's often best to hire a professional to ensure the job is done correctly and to prevent leaks."
+          },
+          {
+            "question": "What types of fixtures do you install?",
+            "answer": "We install all types of fixtures, including sinks, toilets, faucets, showers, and bathtubs."
+          }
+        ]
+      },
+      {
+        "slug": "gas-line-services",
+        "name": "Gas Line Services",
+        "shortDescription": "Safe and reliable gas line repair and installation for your home.",
+        "description": "Gas lines require specialized knowledge and expertise to ensure safety and proper operation. Speck Plumbing offers comprehensive gas line repair and installation services for Dallas homes. Whether you need a gas line repaired, a new gas line installed for a stove or fireplace, or a gas leak detected, our licensed and insured technicians are qualified to handle the job. We adhere to strict safety standards and use the latest equipment to ensure the job is done safely and correctly. Dallas homes with gas appliances rely on properly functioning gas lines, especially during the winter months. We understand the importance of gas line safety and take every precaution to protect your home and family. We can also perform gas line inspections to identify potential problems before they become serious. Trust Speck Plumbing for safe and reliable gas line services.",
+        "process": [
+          "Step 1: Conduct a thorough inspection of the gas line.",
+          "Step 2: Identify any leaks or damage.",
+          "Step 3: Repair or replace the gas line as needed.",
+          "Step 4: Test the gas line to ensure proper operation and safety."
+        ],
+        "benefits": [
+          "Safe operation",
+          "Leak-free connections",
+          "Reliable gas supply",
+          "Peace of mind"
+        ],
+        "faq": [
+          {
+            "question": "What are the signs of a gas leak?",
+            "answer": "Signs of a gas leak include a rotten egg smell, a hissing sound near gas lines, and dead vegetation near gas lines."
+          },
+          {
+            "question": "What should I do if I suspect a gas leak?",
+            "answer": "If you suspect a gas leak, evacuate the building immediately, call the gas company, and do not use any electrical devices or open flames."
+          },
+          {
+            "question": "Are your technicians licensed to work on gas lines?",
+            "answer": "Yes, all of our technicians are licensed and insured to work on gas lines in Dallas."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-plumbing",
+        "name": "24/7 Emergency Plumbing",
+        "shortDescription": "Fast response for plumbing emergencies, day or night.",
+        "description": "Plumbing emergencies don't wait for business hours. Speck Plumbing offers 24/7 emergency plumbing services to address urgent plumbing issues in Dallas, day or night. Whether it's a burst pipe, a sewer backup, or a major leak, our experienced technicians are available to respond quickly and minimize damage to your property. Dallas's unpredictable weather, especially during the spring storm season and occasional ice storms, can lead to plumbing emergencies. We understand the stress and inconvenience of a plumbing emergency and are committed to providing fast, reliable service. We arrive prepared with the tools and equipment necessary to handle most common plumbing emergencies. Don't hesitate to call Speck Plumbing anytime you need emergency plumbing assistance.",
+        "process": [
+          "Step 1: Call our 24/7 emergency hotline.",
+          "Step 2: Describe the plumbing emergency to our dispatcher.",
+          "Step 3: A technician will be dispatched to your location immediately.",
+          "Step 4: The technician will assess the situation and provide a solution."
+        ],
+        "benefits": [
+          "Fast response time",
+          "24/7 availability",
+          "Minimize damage",
+          "Peace of mind"
+        ],
+        "faq": [
+          {
+            "question": "What constitutes a plumbing emergency?",
+            "answer": "A plumbing emergency is any plumbing issue that poses an immediate threat to your property or health, such as a burst pipe, a sewer backup, or a major leak."
+          },
+          {
+            "question": "How quickly will a technician arrive?",
+            "answer": "We strive to arrive at your location as quickly as possible, typically within 60 minutes, depending on traffic and location."
+          },
+          {
+            "question": "Do you charge extra for emergency service?",
+            "answer": "Yes, we do charge a premium for emergency service to cover the cost of being available 24/7."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Fort Worth",
+        "slug": "fort-worth-tx",
+        "state": "TX",
+        "content": "Speck Plumbing is proud to offer our comprehensive plumbing services to the residents and businesses of Fort Worth, Texas. From the historic craftsman bungalows near downtown to the bustling cultural district, we understand the unique plumbing needs of this diverse city. Whether you're dealing with leaky pipes, a malfunctioning water heater, or need assistance with a new construction project, our experienced plumbers are here to provide reliable and efficient solutions.\n\nWe are committed to serving the Fort Worth community with integrity and professionalism. Our team is equipped to handle a wide range of plumbing issues, ensuring your home or business is functioning optimally. We know the hot, humid summers can put a strain on your plumbing systems, and we're here to help you maintain them.",
+        "localContext": "Fort Worth is known for its blend of cowboy culture, art museums, and family-friendly attractions. Many homes near downtown feature craftsman bungalows requiring specialized plumbing knowledge.",
+        "nearbyAreas": [
+          "Arlington",
+          "Dallas",
+          "Benbrook"
+        ]
+      },
+      {
+        "city": "Plano",
+        "slug": "plano-tx",
+        "state": "TX",
+        "content": "Speck Plumbing is dedicated to providing top-notch plumbing services to the community of Plano, Texas. With its established subdivisions built in the 1980s and 90s, Plano homes often require specific expertise in older plumbing systems. Our skilled plumbers are well-versed in diagnosing and repairing common issues found in these homes, from outdated pipes to inefficient water heaters.\n\nWe understand the importance of reliable plumbing in maintaining the comfort and functionality of your Plano residence. Speck Plumbing is committed to delivering prompt, professional, and affordable services, ensuring your plumbing needs are met with the highest standards of quality. With hot humid summers common, reliable AC and plumbing are a must.",
+        "localContext": "Plano is a thriving city known for its excellent schools, corporate headquarters, and family-friendly environment. Many homes feature plumbing systems from the 1980s and 1990s.",
+        "nearbyAreas": [
+          "Frisco",
+          "Richardson",
+          "Allen"
+        ]
+      },
+      {
+        "city": "Frisco",
+        "slug": "frisco-tx",
+        "state": "TX",
+        "content": "Speck Plumbing is pleased to offer our expert plumbing services to the rapidly growing city of Frisco, Texas. Known for its newer construction from the 2000s to the 2020s, Frisco homes often feature modern plumbing systems. Our experienced plumbers are up-to-date with the latest technologies and techniques to ensure efficient and effective solutions for your plumbing needs.\n\nWhether you're experiencing a plumbing emergency, need assistance with a new construction project, or simply require routine maintenance, Speck Plumbing is here to provide reliable and professional service. We are committed to serving the Frisco community with integrity and a focus on customer satisfaction. The climate can be hard on outdoor plumbing.",
+        "localContext": "Frisco is a dynamic city known for its top-rated schools, sports venues, and affluent neighborhoods. The area is experiencing rapid growth with much newer construction.",
+        "nearbyAreas": [
+          "Plano",
+          "McKinney",
+          "The Colony"
+        ]
+      },
+      {
+        "city": "McKinney",
+        "slug": "mckinney-tx",
+        "state": "TX",
+        "content": "Speck Plumbing is proud to serve the residents and businesses of McKinney, Texas, with our comprehensive plumbing services. From the historic downtown homes to the newer developments, we understand the diverse plumbing needs of this charming city. Our skilled plumbers are experienced in working with a variety of plumbing systems, ensuring reliable and efficient solutions for every situation.\n\nWe are committed to providing McKinney with top-quality plumbing services at affordable prices. Whether you're dealing with a leaky faucet, a clogged drain, or need assistance with a major plumbing renovation, Speck Plumbing is here to help. We are dedicated to serving the McKinney community with integrity and professionalism and helping your home withstand the hot, humid summers.",
+        "localContext": "McKinney is a historic city known for its charming downtown square, vibrant arts scene, and family-friendly atmosphere. The city features a mix of historic homes and newer developments.",
+        "nearbyAreas": [
+          "Frisco",
+          "Allen",
+          "Prosper"
+        ]
+      },
+      {
+        "city": "Arlington",
+        "slug": "arlington-tx",
+        "state": "TX",
+        "content": "Speck Plumbing is dedicated to providing reliable and professional plumbing services to the residents and businesses of Arlington, Texas. With its many 1960s and 70s ranch-style homes, Arlington often presents unique plumbing challenges. Our experienced plumbers are well-versed in diagnosing and repairing common issues found in these older homes, from corroded pipes to outdated fixtures.\n\nWe understand the importance of having a dependable plumbing system in your Arlington home or business. Speck Plumbing is committed to delivering prompt, efficient, and affordable services, ensuring your plumbing needs are met with the highest standards of quality. We are also prepared to help you prepare your plumbing system for the hot, humid summers.",
+        "localContext": "Arlington is a vibrant city known for its entertainment destinations, including Six Flags Over Texas and AT&T Stadium. The city features many ranch-style homes built in the 1960s and 1970s.",
+        "nearbyAreas": [
+          "Fort Worth",
+          "Grand Prairie",
+          "Mansfield"
+        ]
+      },
+      {
+        "city": "Richardson",
+        "slug": "richardson-tx",
+        "state": "TX",
+        "content": "Speck Plumbing is pleased to offer our expert plumbing services to the community of Richardson, Texas. Known for its blend of residential neighborhoods and commercial areas, Richardson presents a variety of plumbing needs. Our skilled plumbers are equipped to handle everything from routine maintenance to complex repairs, ensuring your plumbing system is functioning optimally.\n\nWe are committed to providing Richardson with top-quality plumbing services at affordable prices. Whether you're dealing with a leaky pipe, a malfunctioning water heater, or need assistance with a new construction project, Speck Plumbing is here to help. We understand the importance of reliable plumbing, especially with the hot, humid summers.",
+        "localContext": "Richardson is a thriving city known for its Telecom Corridor, excellent schools, and diverse community. The city features a mix of residential and commercial properties.",
+        "nearbyAreas": [
+          "Plano",
+          "Garland",
+          "Dallas"
+        ]
+      },
+      {
+        "city": "Allen",
+        "slug": "allen-tx",
+        "state": "TX",
+        "content": "Speck Plumbing provides plumbing services to Allen, TX. Allen is a growing, family-friendly city with many newer homes and established neighborhoods. We are experts in plumbing repairs, installations, and maintenance for residential and commercial properties. Whether it's a leaky faucet or a full system replacement, we are ready to help.\n\nWe understand the unique needs of Allen homeowners and businesses. We are dedicated to providing excellent customer service and high-quality workmanship. Speck Plumbing is ready to handle any plumbing challenge in Allen, and help you stay comfortable during the hot, humid summers.",
+        "localContext": "Allen is known for its excellent schools, parks, and shopping centers. The city has a mix of newer construction and established neighborhoods.",
+        "nearbyAreas": [
+          "McKinney",
+          "Plano",
+          "Fairview"
+        ]
+      },
+      {
+        "city": "Carrollton",
+        "slug": "carrollton-tx",
+        "state": "TX",
+        "content": "Speck Plumbing is happy to serve Carrollton, TX. Carrollton features a mix of residential and commercial properties, with many established neighborhoods and newer developments. We offer a full range of plumbing services, from routine maintenance to complex repairs and installations.\n\nWe are committed to providing Carrollton residents and businesses with reliable and affordable plumbing solutions. Whether you're dealing with a clogged drain, a water heater issue, or need help with a remodeling project, Speck Plumbing is here to assist. We will ensure your plumbing system is ready for whatever the climate throws at it.",
+        "localContext": "Carrollton is a diverse city with a strong economy and a mix of residential and commercial areas. It has established neighborhoods and newer developments.",
+        "nearbyAreas": [
+          "Addison",
+          "The Colony",
+          "Farmers Branch"
+        ]
+      },
+      {
+        "city": "Garland",
+        "slug": "garland-tx",
+        "state": "TX",
+        "content": "Speck Plumbing is proud to offer our plumbing services to Garland, TX. Garland has many established neighborhoods and a growing business community. Our experienced plumbers are equipped to handle any plumbing challenge, from minor repairs to complete system installations.\n\nWe are committed to providing Garland residents and businesses with exceptional customer service and high-quality workmanship. Whether you need help with a leaky faucet, a broken pipe, or a new construction project, Speck Plumbing is here to help. We know the hot summers can be hard on your plumbing.",
+        "localContext": "Garland is a large city with a diverse population and a mix of residential and commercial areas. It has many established neighborhoods.",
+        "nearbyAreas": [
+          "Mesquite",
+          "Richardson",
+          "Rowlett"
+        ]
+      },
+      {
+        "city": "Grand Prairie",
+        "slug": "grand-prairie-tx",
+        "state": "TX",
+        "content": "Speck Plumbing is available to service the residents and businesses of Grand Prairie, Texas. Grand Prairie features a mix of residential neighborhoods, commercial areas, and industrial zones. Our skilled plumbers are ready to handle any plumbing issue, from routine maintenance to complex repairs and installations.\n\nWe are committed to providing Grand Prairie with reliable and affordable plumbing solutions. Whether you're dealing with a leaky faucet, a water heater problem, or need help with a remodeling project, Speck Plumbing is here to assist. We'll keep your plumbing running smoothly, regardless of the heat.",
+        "localContext": "Grand Prairie is a diverse city with a mix of residential, commercial, and industrial areas. It's home to many attractions, including Lone Star Park and Epic Waters Indoor Waterpark.",
+        "nearbyAreas": [
+          "Arlington",
+          "Dallas",
+          "Irving"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Water Heater Replacement",
+        "text": "Our old water heater finally gave out on a cold January morning. Speck Plumbing was out here within hours and had a new one installed before dinner. The technician, David, was professional and explained everything clearly. Highly recommend!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James K.",
+        "rating": 4,
+        "service": "Drain Cleaning",
+        "text": "I had a severely clogged kitchen sink that I couldn't clear myself. Speck Plumbing came out and used their hydro jetting service, which worked like a charm. A bit pricey, but worth it to get the job done right.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Linda P.",
+        "rating": 5,
+        "service": "Leak Detection",
+        "text": "I suspected a leak somewhere in my house because my water bill was unusually high. Speck Plumbing used some kind of fancy equipment to find a hidden leak behind my washing machine. They fixed it quickly and saved me a ton of money!",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Robert S.",
+        "rating": 5,
+        "service": "Sewer Line Repair",
+        "text": "We had a major sewer line backup that was a complete nightmare. Speck Plumbing was professional, courteous, and got the job done quickly. They explained the whole process and kept us informed every step of the way.",
+        "date": "2024-12-05"
+      },
+      {
+        "name": "Maria G.",
+        "rating": 4,
+        "service": "Faucet Installation",
+        "text": "I recently remodeled my bathroom and hired Speck Plumbing to install a new faucet. They were on time, efficient, and did a great job. The faucet looks beautiful and works perfectly.",
+        "date": "2024-11-18"
+      },
+      {
+        "name": "Michael L.",
+        "rating": 5,
+        "service": "Emergency Plumbing",
+        "text": "Had a burst pipe at 2 AM. Speck Plumbing answered right away and had someone here within the hour. He quickly stopped the leak and prevented further damage. Lifesavers!",
+        "date": "2024-10-27"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Dallas Plumbing Experts | Speck Plumbing",
+        "description": "Reliable plumbing services in Dallas, TX. 24/7 emergency repairs, water heaters, drain cleaning & more. Call Speck Plumbing today!"
+      },
+      "about": {
+        "title": "About Speck Plumbing | Dallas, TX",
+        "description": "Learn about Speck Plumbing's commitment to quality plumbing services in Dallas. Experienced plumbers, upfront pricing, and guaranteed workmanship."
+      },
+      "services": {
+        "title": "Plumbing Services | Speck Plumbing Dallas",
+        "description": "Comprehensive plumbing services in Dallas, TX. Drain cleaning, water heater repair, leak detection, sewer lines & more. Call Speck Plumbing!"
+      },
+      "contact": {
+        "title": "Contact Speck Plumbing | Dallas, TX",
+        "description": "Contact Speck Plumbing for fast, reliable plumbing services in Dallas. Call us today for emergency repairs, estimates, and expert advice."
+      },
+      "reviews": {
+        "title": "Speck Plumbing Reviews | Dallas, TX",
+        "description": "Read what our customers say about Speck Plumbing. Honest reviews, reliable service, and quality workmanship in Dallas, TX."
+      },
+      "service-areas": {
+        "title": "Speck Plumbing Service Areas | Dallas, TX",
+        "description": "Speck Plumbing provides plumbing services throughout the Dallas-Fort Worth metroplex. See our service area map and contact us today!"
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "drain-cleaning": "/images/service-drain-cleaning.webp",
+      "water-heater-repair": "/images/service-water-heater-repair.webp",
+      "leak-detection": "/images/service-leak-detection.webp",
+      "sewer-line-repair": "/images/service-sewer-line-repair.webp",
+      "fixture-installation": "/images/service-fixture-installation.webp",
+      "gas-line-services": "/images/service-gas-line-services.webp",
+      "emergency-plumbing": "/images/service-emergency-plumbing.webp"
+    },
+    "servicesResponsive": {
+      "drain-cleaning": {
+        "src": "/images/service-drain-cleaning.webp",
+        "srcset": "/images/service-drain-cleaning-400w.webp 400w, /images/service-drain-cleaning-800w.webp 800w, /images/service-drain-cleaning-1200w.webp 1200w, /images/service-drain-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "water-heater-repair": {
+        "src": "/images/service-water-heater-repair.webp",
+        "srcset": "/images/service-water-heater-repair-400w.webp 400w, /images/service-water-heater-repair-800w.webp 800w, /images/service-water-heater-repair-1200w.webp 1200w, /images/service-water-heater-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "leak-detection": {
+        "src": "/images/service-leak-detection.webp",
+        "srcset": "/images/service-leak-detection-400w.webp 400w, /images/service-leak-detection-800w.webp 800w, /images/service-leak-detection-1200w.webp 1200w, /images/service-leak-detection.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "sewer-line-repair": {
+        "src": "/images/service-sewer-line-repair.webp",
+        "srcset": "/images/service-sewer-line-repair-400w.webp 400w, /images/service-sewer-line-repair-800w.webp 800w, /images/service-sewer-line-repair-1200w.webp 1200w, /images/service-sewer-line-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fixture-installation": {
+        "src": "/images/service-fixture-installation.webp",
+        "srcset": "/images/service-fixture-installation-400w.webp 400w, /images/service-fixture-installation-800w.webp 800w, /images/service-fixture-installation-1200w.webp 1200w, /images/service-fixture-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "gas-line-services": {
+        "src": "/images/service-gas-line-services.webp",
+        "srcset": "/images/service-gas-line-services-400w.webp 400w, /images/service-gas-line-services-800w.webp 800w, /images/service-gas-line-services-1200w.webp 1200w, /images/service-gas-line-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-plumbing": {
+        "src": "/images/service-emergency-plumbing.webp",
+        "srcset": "/images/service-emergency-plumbing-400w.webp 400w, /images/service-emergency-plumbing-800w.webp 800w, /images/service-emergency-plumbing-1200w.webp 1200w, /images/service-emergency-plumbing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
